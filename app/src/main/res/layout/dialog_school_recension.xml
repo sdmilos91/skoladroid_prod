@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/schoolRecension"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Име корисника" />
+
+    <EditText
+        android:id="@+id/recUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:imeOptions="actionDone"
+        android:inputType="text" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Коментар" />
+
+    <EditText
+        android:id="@+id/recComment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:imeOptions="actionDone"
+        android:inputType="textMultiLine" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Оцена" />
+
+    <RatingBar
+        android:id="@+id/recRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"/>
+
+    <Button
+        android:id="@+id/recSendBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Пошаљи"
+        android:textColor="#FFF"
+        android:background="@color/colorPrimary"/>
+
+</LinearLayout>

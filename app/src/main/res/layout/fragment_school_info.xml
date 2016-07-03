@@ -1,0 +1,343 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="100"
+        android:background="#F0F0F0"
+        tools:context="com.ftn.timkodzo.skoladroiddev.activities.SchoolDetailActivity$PlaceholderFragment">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="100"
+            android:weightSum="100"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="20"
+                android:weightSum="100"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_weight="40"
+                    android:text="Назив:"
+                    android:gravity="left"/>
+
+                <TextView
+                    android:id="@+id/sectionSchoolName"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="55"
+                    android:textSize="25sp"
+                    android:text="Mihaila Pupina"
+                    android:gravity="left"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/darker_gray"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="20"
+                android:weightSum="100"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_weight="40"
+                    android:text="Место:"
+                    android:gravity="left"/>
+
+                <TextView
+                    android:id="@+id/sectionSchoolCity"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="55"
+                    android:textSize="25sp"
+                    android:text="Novi Sad"
+                    android:gravity="left"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/darker_gray"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="20"
+                android:weightSum="100"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_weight="40"
+                    android:text="Округ:"
+                    android:gravity="left"/>
+                <TextView
+                    android:id="@+id/schoolCounty"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="55"
+                    android:textSize="25sp"
+                    android:text="Novi Sad"
+                    android:gravity="left"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/darker_gray"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="20"
+                android:weightSum="100"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_weight="40"
+                    android:text="Адреса:"
+                    android:gravity="left"/>
+                <TextView
+                    android:id="@+id/schoolAddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="55"
+                    android:textSize="25sp"
+                    android:text="Futoska 10"
+                    android:gravity="left"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/darker_gray"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="20"
+                android:weightSum="100"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_weight="40"
+                    android:text="Општина:"
+                    android:gravity="left"/>
+                <TextView
+                    android:id="@+id/schoolMunicipality"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="55"
+                    android:textSize="25sp"
+                    android:text="Futoska 10"
+                    android:gravity="left"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/darker_gray"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="20"
+                android:weightSum="100"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_weight="40"
+                    android:text="Телефон:"
+                    android:gravity="left"/>
+                <TextView
+                    android:id="@+id/schoolPhone"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="55"
+                    android:textSize="25sp"
+                    android:text="021/100/200"
+                    android:gravity="left"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/darker_gray"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="20"
+                android:weightSum="100"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_weight="40"
+                    android:text="Факс:"
+                    android:gravity="left"/>
+                <TextView
+                    android:id="@+id/schoolFax"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="55"
+                    android:textSize="25sp"
+                    android:text="021/100/200"
+                    android:gravity="left"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/darker_gray"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="20"
+                android:weightSum="100"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_weight="40"
+                    android:text="Поштански код:"
+                    android:gravity="left"/>
+                <TextView
+                    android:id="@+id/schoolPostCode"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="55"
+                    android:textSize="25sp"
+                    android:text="021/100/200"
+                    android:gravity="left"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/darker_gray"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="20"
+                android:weightSum="100"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_weight="40"
+                    android:text="Одељења:"
+                    android:gravity="left"/>
+
+                <TextView
+                    android:id="@+id/schoolDepartments"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="55"
+                    android:textSize="25sp"
+                    android:text="021/100/200"
+                    android:gravity="left"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/darker_gray"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="20"
+                android:weightSum="100"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_weight="40"
+                    android:text="Врста:"
+                    android:gravity="left"/>
+
+                <TextView
+                    android:id="@+id/schoolType"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="55"
+                    android:textSize="25sp"
+                    android:text="021/100/200"
+                    android:gravity="left"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/darker_gray"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="20"
+                android:weightSum="100"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_weight="40"
+                    android:text="Сајт:"
+                    android:gravity="left"/>
+                <TextView
+                    android:id="@+id/schoolSite"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="55"
+                    android:textSize="25sp"
+                    android:text="021/100/200"
+                    android:gravity="left"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/darker_gray"/>
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+</ScrollView>

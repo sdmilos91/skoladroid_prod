@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/schoolListParent"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="100"
+    android:layout_marginTop="7dp">
+
+
+
+
+
+    <LinearLayout
+        android:id="@+id/listContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="100"
+        android:padding="2dp"
+        android:background="#c4e1b8bb"
+        android:layout_marginTop="0dp">
+
+
+        <TextView
+            android:id="@+id/schoolName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="Branko Radicevic"
+            android:textColor="#242121"/>
+
+        <TextView
+            android:id="@+id/schoolCity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textStyle="italic"
+            android:gravity="center"
+            android:text="Novi Sad"
+            android:textColor="#000"/>
+        <TextView
+            android:id="@+id/schoolDist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textStyle="italic"
+            android:gravity="center"
+            android:text="Novi Sad"
+            android:textColor="#665858"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

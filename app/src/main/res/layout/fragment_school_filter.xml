@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/edit_name"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/lbl_your_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Назив школе" />
+
+    <EditText
+        android:id="@+id/filterSchooName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:imeOptions="actionDone"
+        android:inputType="text" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Место школе" />
+
+    <EditText
+        android:id="@+id/filterSchoolCity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:imeOptions="actionDone"
+        android:inputType="text" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Максимална удаљеност (км)" />
+
+    <EditText
+        android:id="@+id/filterSchoolDist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:imeOptions="actionDone"
+        android:inputType="numberDecimal"
+        android:text="20"/>
+
+
+    <Switch
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Средња школа"
+        android:id="@+id/filterSchoolPrimary" />
+
+    <Switch
+        android:layout_width="312dp"
+        android:layout_height="wrap_content"
+        android:text="Основна школа"
+        android:id="@+id/filterSchoolElementary" />
+
+
+    <Button
+        android:id="@+id/filterButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Филтрирај"
+        android:textColor="#FFF"
+        android:background="@color/colorPrimary"/>
+
+</LinearLayout>
